@@ -1422,7 +1422,97 @@ footer .link{
     font-size: 1rem;
 }
 
+/*CUSTOMIZE*/
+
+.titleC h2 {
+    font-size: 3rem;
 }
+
+#models {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 3rem;
+    
+}
+
+#models .btn{
+    font-size: 3rem;
+    max-width: 40rem;
+    max-height: 40rem;
+}
+
+#create0 {
+    display: grid;
+    margin-top: 4rem;
+}
+
+#create0 img{
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+#create0 .btn {
+    max-width: 40rem;
+    font-size: 3rem;
+}
+
+#create01 {
+    display: grid;
+    margin-top: 5rem;
+}
+
+#create01 img{
+    display: block;
+    margin: auto;
+}
+
+#create01 p{
+    max-width: 40rem;
+    margin-top: 2rem;
+    font-size: 1rem;
+}
+
+#create01 h3{
+    margin-top: 2rem;
+}
+
+#create02{
+    display: grid;
+    margin-top: 10rem;
+}
+
+#create02 p{
+    max-width: 40rem;
+    margin-top: 2rem;
+    font-size: 1rem;
+    margin-bottom: 8rem;
+}
+
+#create02 h3{
+    margin-top: 2rem;
+}
+
+#create02 img{
+    display: block;
+    margin: auto;
+}
+
+.step4 p{
+    max-width: 40rem;
+    font-size: 1rem;
+    display: block;
+    margin: auto;
+}
+
+.decision .btn {
+    margin-bottom: 3rem;
+    font-size: 3rem;
+
+}
+
+}
+
 
 
 
