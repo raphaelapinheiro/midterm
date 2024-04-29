@@ -1020,25 +1020,40 @@ label {
 @media screen and (max-width: 1250px) {
 
     #heroImage {
-        background-image: url(Assets/Hero\ Image\ Mobile\ 2.jpg);
+        background-image: url(Assets/Hero\ Image\ Mobile\ 2__.jpg);
         width: 100%;
         height: 70rem;
         background-size: cover;
        }
     
     #heroImage p {
-        font-size: 1.5rem;
-        max-width: 35rem;
-        align-items: right;
+        font-size: 2rem;
+        max-width: none;
+        text-align: center;
+    }
+
+    #heroImage h1{
+        margin-top: 4rem;
+        font-size: 2.5rem;
+    }
+
+    #heroImage .btn {
+        background-color: #320D5B;
+        color: #FFFFFF;
     }
 
     .open {
-        align-items: center;
-        margin-top: 20rem;
+        margin-top: 2rem;
+        text-align: center;
+        display: block;
+        margin: auto;
+        float: none;
     }
 
-    .love p {
-        align-items: center;
+    .love {
+        margin: auto;
+        width: 100%;
+        left: 0%;
     }
 
 
@@ -1072,6 +1087,10 @@ label {
     margin-bottom: 2rem;
    }
 
+   .intro p{
+    font-size: 1rem;
+   }
+
    #Jewelry {
     display: flex;
     flex-wrap: wrap;
@@ -1081,19 +1100,23 @@ label {
     max-width: 50rem;
    }
 
+   #Jewelry .btn {
+    margin-top: 1rem;
+   }
     #journey img{
         width: 10rem;
     }
 
     #journey h2 {
-        font-size: 1rem;
-        max-width: 30rem;
+        font-size: 2rem;
+        max-width: 100%;
         display: block;
         margin: auto;
     }
 
     #journey p {
-        max-width: 40rem;
+        max-width: 50rem;
+        font-size: 1rem;
         display: block;
         margin: auto;
         margin-top: 2rem;
@@ -1131,12 +1154,12 @@ label {
     }
 
     #purple .read h2 {
-        font-size: .8rem;
+        font-size: 2rem;
     }
 
     #purple .read p{
         max-width: 40rem;
-        font-size: .6rem;
+        font-size: 1rem;
         display: block;
         margin: auto;
     }
@@ -1157,29 +1180,29 @@ label {
     }
 
     #event h2 {
-        font-size: .8rem;
+        font-size: 2rem;
         margin-top: 0px;
         margin-bottom: 3rem;
     }
 
     #event h4 {
-        font-size: .8rem;
+        font-size: 2rem;
         margin-bottom: 3rem;
     }
 
     #event p {
         max-width: 40rem;
-        font-size: .6rem;
+        font-size: 1rem;
         display: block;
         margin: auto;
     }
 
     .start h2 {
-        font-size: .8rem;
+        font-size: 2rem;
     }
 
     .start .btn {
-        font-size: .6rem;
+        font-size: 1rem;
         max-width: max-content;
         display: block;
         margin: 10px auto;
@@ -1197,7 +1220,7 @@ label {
 
 .center p {
     max-width: 50rem;
-    font-size: .6rem;
+    font-size: 1rem;
 }
 
 #work.two-col {
@@ -1212,6 +1235,7 @@ label {
 }
 
 #work p {
+    font-size: 1rem;
     max-width: 60rem;
 }
 
@@ -1220,7 +1244,7 @@ label {
 }
 
 .center h3{
-    font-size: 0.8rem;
+    font-size: 1.3rem;
     max-width: 30rem;
 }
 
@@ -1257,7 +1281,7 @@ label {
 
 .hearts p {
     max-width: 40rem;
-    font-size: 0.6rem;
+    font-size: 1rem;
     text-align: center;
     margin-top: 2rem;
 }
@@ -1271,14 +1295,33 @@ label {
 #contact p{
     max-width: 30rem;
     text-align: center;
+    margin: auto;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+#contact h2{
+    text-align: center;
+}
+
+#contact img{
+    margin: auto;
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
 }
 
 label{
     font-size: 1.5rem;
 }
 
-input{
+input, textarea{
     font-size: 1.2rem;
+    max-width: 1000rem;
+}
+
+footer .link{
+    font-size: 1rem;
 }
 
 /*JEWELRY*/
