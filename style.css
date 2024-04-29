@@ -1336,21 +1336,43 @@ footer .link{
 }
 
 #phrase h3{
-    font-size: 1.5rem;
+    font-size: 2rem;
 
 }
 
 #heroImage3 {
-    background-image:url(Assets/Hero\ Image\ Mobile\ 2__.jpg);
+    background-image:url(Assets/Hero\ Image\ Mobile\ 3.jpg);
     width: 100%;
     height: 70rem;
     background-size: contain;
     margin-top: 0rem;
 }
 
+.loveit h2 {
+    font-size: 3rem;
+}
+
+.loveit h3{
+    font-size: 2rem;
+}
 #successes {
     display: flex;
     flex-direction: column;
+}
+
+#successes img{
+   width: 50rem;
+}
+
+#successes h3{
+    font-size: 2.8rem;
+}
+
+#successes .btnALT{
+    background-color: #FFE744;
+    color: #320D5B;
+    margin-bottom: 2rem;
+    font-size: 2rem;
 }
 
 #types {
@@ -1360,14 +1382,48 @@ footer .link{
 }
 
 #products {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 3rem;
 }
 
+#products img{
+    max-width: 60rem;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+#products .btn {
+    max-width: 20rem;
+    font-size: 1rem;
+    margin-top: 2rem;
+}
 .cards2 img{
-    max-width: 66rem;
+    max-width: 65rem;
 }
+
+.lookingfor img{
+    max-width: 30rem;
+    padding-inline: 0;
 }
+
+#cardsg h2{
+    font-size: 2rem;
+}
+
+#cardsg p{
+    display: block;
+    margin: auto;
+    max-width: 40rem;
+    font-size: 1rem;
+}
+
+.foot .link{
+    font-size: 1rem;
+}
+
+}
+
 
 
 
