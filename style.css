@@ -1443,7 +1443,7 @@ footer .link{
 }
 
 #models .btn{
-    font-size: 3rem;
+    font-size: 2rem;
     max-width: 40rem;
     max-height: 40rem;
 }
@@ -1461,7 +1461,7 @@ footer .link{
 
 #create0 .btn {
     max-width: 40rem;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 #create01 {
@@ -1514,7 +1514,7 @@ footer .link{
 
 .decision .btn {
     margin-bottom: 3rem;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 /*BLOG*/
@@ -1537,7 +1537,7 @@ footer .link{
 }
 
 #blog .btn{
-    font-size: 3rem;
+    font-size: 2rem;
     margin-bottom: 5rem;
 }
 
@@ -1549,8 +1549,24 @@ footer .link{
     font-size: 1rem;
 }
 
+/*ACCOUNT*/
 
+#accounts {
+    display: flex;
+     flex-wrap: wrap;
+}
 
+#accounts h3{
+    font-size: 2rem;
+}
+
+#accounts div {
+    width: 100%;
+}
+
+#accounts .btn{
+    font-size: 2rem;
+}
 
 }
 
