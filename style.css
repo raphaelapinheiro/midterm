@@ -500,7 +500,7 @@ input, textarea{
    border: none;
    margin-top: 10px;
    margin-bottom: 10px;
-   max-width: 700px;
+   width: 100%;
    padding: 10px;
 }
 
@@ -871,9 +871,9 @@ input, textarea{
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-inline: 480px;
     padding-top: 30px;
     padding-bottom: 30px;
+    justify-content: center;
 }
 
 #heroImage6 .blog img{
@@ -962,7 +962,8 @@ label {
 #connect form {
     display: grid;
     grid-template-columns: 1fr;
-    padding-inline: 350px;
+    max-width: 60rem;
+    margin: auto;
 }
 
 
@@ -994,6 +995,12 @@ label {
     margin: auto;
     margin-bottom: 20px;
     margin-top: 20px;
+    max-width: 20rem;
+    text-align: center;
+}
+
+.omg .btn{
+    max-width: 10rem;
 }
 
 .account {
@@ -1509,6 +1516,39 @@ footer .link{
     margin-bottom: 3rem;
     font-size: 3rem;
 }
+
+/*BLOG*/
+
+#blog img{
+  width: 60rem;
+}
+
+#blog h4{
+    font-size: 2rem;
+}
+
+#blog p{
+    font-size: 1rem;
+    display: block;
+    margin: auto;
+    max-width: 50rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#blog .btn{
+    font-size: 3rem;
+    margin-bottom: 5rem;
+}
+
+.Ccontact h3{
+    font-size: 2rem;
+}
+
+.Ccontact h4{
+    font-size: 1rem;
+}
+
 
 
 
